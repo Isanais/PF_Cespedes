@@ -53,7 +53,14 @@ h1 {
   padding: 40px 0px;
   font-weight: $weight-bold;
 }
-
+/* .button--gradient {
+  border: none;
+  color: var(--white) !important;
+  background: linear-gradient(135deg, #247A78 0%, #0B496B 100%);
+  transition: 0.9s;
+  
+}
+ */
 .navbar {
   align-items: center;
   background-color: $black !important;
@@ -184,6 +191,12 @@ H O M E
       font-size: 16px;
       height: 40px;
     }
+    .card__button:hover{
+      background: linear-gradient(to bottom, $bluegray-800 0%,  $bluegray-900 100%);
+  }
+  }
+  .card:hover{
+    transform: scale(1.025);
   }
 }
 
