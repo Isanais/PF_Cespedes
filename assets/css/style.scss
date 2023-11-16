@@ -88,6 +88,9 @@ h1 {
     font-size: 21px;
   }
 }
+.nav-link:active{
+  color: $bluegray-100;
+}
 
 main {
   margin-top: 60px;
@@ -193,7 +196,7 @@ H O M E
     }
     .card__button:hover{
       background: linear-gradient(to bottom, $bluegray-800 0%,  $bluegray-900 100%);
-  }
+    }
   }
   .card:hover{
     transform: scale(1.025);
@@ -314,6 +317,11 @@ H O M E
     }
   }
 }
+.map iframe:hover{
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(99%); /* Chrome 19+ & Safari 6+ */
+  -webkit-backface-visibility: hidden;
+}
 
 @media (max-width: 425px) {
   .nosotros {
@@ -380,6 +388,9 @@ H O M E
   font-size: 16px;
   height: 40px;
 }
+.blog__col .blog__button:hover{
+  background: linear-gradient(to bottom, $bluegray-800 0%,  $bluegray-900 100%);
+}
 
 .blog__post {
   padding: 0px 40px;
@@ -420,6 +431,12 @@ H O M E
       font-size: 16px;
       height: 40px;
     }
+    .card__button:hover{
+      background: linear-gradient(to bottom, $bluegray-800 0%,  $bluegray-900 100%);
+    }
+  }
+  .card:hover{
+    transform: scale(1.025);
   }
 }
 
@@ -517,6 +534,9 @@ H O M E
     border-radius: 20px;
     font-size: 16px;
     height: 40px;
+  }
+  .card .card__button:hover{
+    background: linear-gradient(to bottom, $bluegray-800 0%,  $bluegray-900 100%);
   }
 }
 
