@@ -7,10 +7,20 @@
 
 h1 {
   color: #282e38;
-  font-size: 42px;
+  font-size: 40px;
   text-align: center;
   padding: 40px 0px;
   font-weight: 700;
+  margin: 0px;
+}
+
+h2 {
+  color: #282e38;
+  font-size: 32px;
+  text-align: center;
+  padding: 40px 0px;
+  font-weight: 700;
+  margin: 0px;
 }
 
 /* .button--gradient {
@@ -132,7 +142,7 @@ H O M E
      object-fit: cover;
 }
 .promociones .card .card__title {
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 600;
 }
 .promociones .card .card__text {
@@ -195,7 +205,7 @@ H O M E
   }
 }
 .follow {
-  padding: 40px;
+  padding: 0px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 20px;
@@ -284,7 +294,7 @@ H O M E
   gap: 20px;
 }
 .blog__col h1 {
-  font-size: 42px;
+  font-size: 40px;
   font-weight: 700;
   color: #000000;
   width: 100%;
@@ -348,7 +358,7 @@ H O M E
      object-fit: cover;
 }
 .blog__post .card .card__title {
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 600;
 }
 .blog__post .card .card__text {
@@ -433,7 +443,7 @@ H O M E
   gap: 20px;
 }
 .checkout .card .card__title {
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 600;
 }
 .checkout .card .card__text {
@@ -485,7 +495,7 @@ H O M E
   display: flex;
   justify-content: space-between;
 }
-.checkout__subtotal h2 b {
+.checkout__subtotal h4 b {
   color: #d80000;
 }
 
